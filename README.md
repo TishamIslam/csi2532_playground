@@ -13,7 +13,7 @@ Pour CSI2532, lab 6, en utilisant https://sql.js.org/examples/GUI/
 
 ![image](https://user-images.githubusercontent.com/45071113/156962039-3f6371f2-06c0-41bf-b8d9-5bcc941bb8d9.png)
 
-4. Lister les name et birthplace de tous les artists nés entre 1880 et 1930. (ASTUCE: EXTRACT(YEAR FROM dateofbirth) vous donne l'année à partir d'un attribut DATE)
+4. Lister les name et birthplace de tous les artists nés entre 1880 et 1930. (ASTUCE: EXTRACT(YEAR FROM dateofbirth) vous donne l'année à partir d'un attribut DATE) NOTE: SQLite utilise CAST(strftime('%Y', dateofbirth) AS INTEGER) pour faire cette action
 
 ![image](https://user-images.githubusercontent.com/45071113/156964383-e469280a-35f8-4727-be13-600ceaaa862c.png)
 
